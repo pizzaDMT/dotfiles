@@ -1,0 +1,260 @@
+2025-05-17 07:26:48,298 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.2
+2025-05-17 07:26:48,298 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-17 07:26:48,299 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-17 07:26:48,316 [INFO] [MainThread] [root/config.py:61]: Created default config file at C:\Users\pizza\.config\yasb\config.yaml
+2025-05-17 07:26:48,346 [INFO] [MainThread] [root/config.py:75]: Created default stylesheet at C:\Users\pizza\.config\yasb\styles.css
+2025-05-17 07:26:48,477 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-17 07:26:48,621 [ERROR] [MainThread] [root/weather.py:168]: API key or location is missing. Please provide a valid API key and location.
+2025-05-17 07:26:48,635 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-17 07:26:49,166 [ERROR] [MainThread] [root/weather.py:168]: API key or location is missing. Please provide a valid API key and location.
+2025-05-17 07:26:49,227 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\pizza\.config\yasb
+2025-05-17 07:26:49,254 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-71037a77-3309-11f0-b8e4-50ebf6815de2
+2025-05-17 07:26:49,278 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-17 07:26:49,279 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-17 07:27:12,836 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:249]: CLI server received command: stop
+2025-05-17 07:27:12,836 [INFO] [Thread-1 (_run_server)] [root/controller.py:27]: Exiting Application from CLI...
+2025-05-17 07:27:12,949 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-17 07:27:12,949 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-17 07:27:12,949 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-17 07:27:12,964 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-17 07:27:12,964 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-17 07:27:13,688 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.2
+2025-05-17 07:27:13,688 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-17 07:27:13,688 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-17 07:27:14,159 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-17 07:27:14,233 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-17 07:27:14,931 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\pizza\.config\yasb
+2025-05-17 07:27:14,980 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-17 07:27:14,981 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-17 07:27:15,267 [INFO] [MainThread] [root/weather.py:67]: Fetched new weather data at 2025-05-17 07:27:15.267075
+2025-05-17 07:29:12,284 [INFO] [MainThread] [root/controller.py:27]: Exiting Application from tray...
+2025-05-17 07:29:12,395 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-17 07:29:12,395 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-17 07:29:12,398 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-17 07:29:12,410 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-17 07:29:12,411 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-17 07:29:25,161 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.2
+2025-05-17 07:29:25,161 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-17 07:29:25,161 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-17 07:29:25,609 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-17 07:29:25,685 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-17 07:29:26,315 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\pizza\.config\yasb
+2025-05-17 07:29:26,363 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-17 07:29:26,363 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-17 07:29:26,452 [INFO] [MainThread] [root/weather.py:67]: Fetched new weather data at 2025-05-17 07:29:26.452674
+2025-05-17 07:30:51,623 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-17 07:30:51,737 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-17 07:30:51,737 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-17 07:30:51,745 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-17 07:30:51,752 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-17 07:30:51,752 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-17 07:30:52,017 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.2
+2025-05-17 07:30:52,017 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-17 07:30:52,017 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-17 07:30:52,376 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-17 07:30:52,521 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-17 07:30:53,131 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\pizza\.config\yasb
+2025-05-17 07:30:53,190 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-17 07:30:53,191 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-17 07:30:53,513 [INFO] [MainThread] [root/weather.py:67]: Fetched new weather data at 2025-05-17 07:30:53.513041
+2025-05-17 07:33:22,433 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-17 07:33:22,543 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-17 07:33:22,543 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-17 07:33:22,550 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-17 07:33:22,558 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-17 07:33:22,558 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-17 07:33:22,815 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.2
+2025-05-17 07:33:22,816 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-17 07:33:22,816 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-17 07:33:23,174 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-17 07:33:23,320 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-17 07:33:23,953 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\pizza\.config\yasb
+2025-05-17 07:33:24,006 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-17 07:33:24,007 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-17 07:33:24,102 [INFO] [MainThread] [root/weather.py:67]: Fetched new weather data at 2025-05-17 07:33:24.102925
+2025-05-17 07:34:50,213 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-17 07:34:50,223 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-17 07:34:50,226 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-17 07:36:41,229 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-17 07:36:41,229 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-17 07:36:41,229 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-17 07:36:41,951 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-17 07:36:43,052 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-17 07:36:43,892 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\pizza\.config\yasb
+2025-05-17 07:36:43,977 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-17 07:36:43,977 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-17 07:36:44,372 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 07:36:44.371362
+2025-05-17 07:38:18,534 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-17 07:38:18,643 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-17 07:38:18,643 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-17 07:38:18,654 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-17 07:38:18,658 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-17 07:38:18,658 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-17 07:38:18,918 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-17 07:38:18,918 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-17 07:38:18,918 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-17 07:38:19,270 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-17 07:38:19,430 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-17 07:38:20,050 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\pizza\.config\yasb
+2025-05-17 07:38:20,122 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-17 07:38:20,123 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-17 07:38:20,249 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 07:38:20.249109
+2025-05-17 07:43:31,458 [DEBUG] [MainThread] [root/blurWindow.py:116]: Failed to apply settings: invalid literal for int() with base 16: ''
+2025-05-17 07:44:11,368 [INFO] [MainThread] [root/controller.py:12]: Reloading Application from tray...
+2025-05-17 07:44:11,483 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-17 07:44:11,483 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-17 07:44:11,505 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-17 07:44:11,514 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-17 07:44:11,514 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-17 07:44:11,760 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-17 07:44:11,761 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-17 07:44:11,761 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-17 07:44:12,110 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-17 07:44:12,253 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-17 07:44:12,848 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\pizza\.config\yasb
+2025-05-17 07:44:12,896 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-17 07:44:12,897 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-17 07:44:13,227 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 07:44:13.227138
+2025-05-17 07:46:12,406 [DEBUG] [MainThread] [root/media.py:413]: Unknown source app in session: 'OperaSoftware.OperaGXWebBrowser.1687605523' - consider adding to source_list
+2025-05-17 07:46:13,401 [DEBUG] [MainThread] [root/media.py:413]: Unknown source app in session: 'OperaSoftware.OperaGXWebBrowser.1687605523' - consider adding to source_list
+2025-05-17 07:46:24,714 [DEBUG] [MainThread] [root/media.py:413]: Unknown source app in session: 'OperaSoftware.OperaGXWebBrowser.1687605523' - consider adding to source_list
+2025-05-17 07:48:54,437 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-17 07:48:54,546 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-17 07:48:54,546 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-17 07:48:54,553 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-17 07:48:54,562 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-17 07:48:54,562 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-17 07:48:54,822 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-17 07:48:54,822 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-17 07:48:54,822 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-17 07:48:55,170 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-17 07:48:55,318 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-17 07:48:55,879 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\pizza\.config\yasb
+2025-05-17 07:48:55,926 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-17 07:48:55,926 [DEBUG] [Dummy-7] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-17 07:48:56,210 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 07:48:56.210024
+2025-05-17 07:58:55,583 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 07:58:55.583821
+2025-05-17 08:08:55,810 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 08:08:55.810045
+2025-05-17 08:18:55,605 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 08:18:55.605749
+2025-05-17 08:28:55,585 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 08:28:55.585564
+2025-05-17 08:38:55,612 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 08:38:55.612905
+2025-05-17 08:48:55,590 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 08:48:55.590431
+2025-05-17 08:58:55,636 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 08:58:55.636724
+2025-05-17 09:08:55,625 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 09:08:55.625621
+2025-05-17 09:18:55,591 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 09:18:55.591934
+2025-05-17 09:28:55,600 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 09:28:55.600259
+2025-05-17 09:38:55,582 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 09:38:55.582111
+2025-05-17 09:48:56,210 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 09:48:56.210627
+2025-05-17 09:58:55,628 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 09:58:55.628115
+2025-05-17 10:08:55,625 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 10:08:55.625934
+2025-05-17 10:18:55,770 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 10:18:55.770508
+2025-05-17 10:24:42,357 [DEBUG] [MainThread] [root/media.py:413]: Unknown source app in session: 'OperaSoftware.OperaGXWebBrowser.1687605523' - consider adding to source_list
+2025-05-17 10:29:07,739 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-17 10:29:07,739 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-17 10:29:07,739 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-17 10:29:08,085 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-17 10:29:08,236 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-17 10:29:08,770 [WARNING] [MainThread] [root/widget_builder.py:35]: Ignoring construction of invalid widget 'active_window'
+2025-05-17 10:29:08,878 [ERROR] [MainThread] [root/widget_builder.py:88]: Failed to validate widget(s) due to invalid options  - active_window
+      blinking_icon:
+      - unknown field
+      hide_when_not_recording:
+      - unknown field
+      icons:
+      - unknown field
+      
+2025-05-17 10:29:57,232 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-17 10:29:57,232 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-17 10:29:57,232 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-17 10:29:57,581 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-17 10:29:57,727 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-17 10:29:58,353 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\pizza\.config\yasb
+2025-05-17 10:29:58,453 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-17 10:29:58,453 [DEBUG] [Dummy-7] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-17 10:29:58,766 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 10:29:58.766982
+2025-05-17 10:30:31,749 [DEBUG] [MainThread] [root/blurWindow.py:116]: Failed to apply settings: invalid literal for int() with base 16: ''
+2025-05-17 10:31:42,206 [ERROR] [MainThread] [root/bar_manager.py:53]: Error loading config: mapping values are not allowed here
+  in "C:\Users\pizza\.config\yasb\config.yaml", line 233, column 12
+2025-05-17 10:32:21,678 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-17 10:32:21,787 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-17 10:32:21,787 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-17 10:32:21,795 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-17 10:32:21,802 [DEBUG] [Dummy-7] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-17 10:32:21,802 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-17 10:32:22,092 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-17 10:32:22,093 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-17 10:32:22,093 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-17 10:32:22,443 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-17 10:32:22,582 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-17 10:32:23,204 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\pizza\.config\yasb
+2025-05-17 10:32:23,295 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-17 10:32:23,296 [DEBUG] [Dummy-7] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-17 10:32:23,382 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 10:32:23.382555
+2025-05-17 10:34:17,934 [DEBUG] [MainThread] [root/media.py:413]: Unknown source app in session: 'OperaSoftware.OperaGXWebBrowser.1687605523' - consider adding to source_list
+2025-05-17 10:35:59,603 [DEBUG] [MainThread] [root/media.py:413]: Unknown source app in session: 'OperaSoftware.OperaGXWebBrowser.1687605523' - consider adding to source_list
+2025-05-17 10:36:16,313 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-17 10:36:16,419 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-17 10:36:16,419 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-17 10:36:16,430 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-17 10:36:16,435 [DEBUG] [Dummy-7] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-17 10:36:16,435 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-17 10:36:16,742 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-17 10:36:16,743 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-17 10:36:16,743 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-17 10:36:17,098 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-17 10:36:17,242 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-17 10:36:17,870 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\pizza\.config\yasb
+2025-05-17 10:36:17,961 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-17 10:36:17,962 [DEBUG] [Dummy-7] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-17 10:36:18,246 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 10:36:18.246553
+2025-05-17 10:37:22,872 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-17 10:37:22,975 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-17 10:37:22,975 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-17 10:37:22,983 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-17 10:37:22,991 [DEBUG] [Dummy-7] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-17 10:37:22,991 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-17 10:37:23,292 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-17 10:37:23,292 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-17 10:37:23,292 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-17 10:37:23,654 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-17 10:37:23,784 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-17 10:37:24,412 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\pizza\.config\yasb
+2025-05-17 10:37:24,502 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-17 10:37:24,503 [DEBUG] [Dummy-7] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-17 10:37:24,623 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 10:37:24.623053
+2025-05-17 10:38:00,551 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-17 10:38:00,655 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-17 10:38:00,655 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-17 10:38:00,667 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-17 10:38:00,670 [DEBUG] [Dummy-7] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-17 10:38:00,670 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-17 10:38:00,952 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-17 10:38:00,952 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-17 10:38:00,953 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-17 10:38:01,301 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-17 10:38:01,445 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-17 10:38:02,074 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\pizza\.config\yasb
+2025-05-17 10:38:02,172 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-17 10:38:02,172 [DEBUG] [Dummy-7] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-17 10:38:02,299 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 10:38:02.299895
+2025-05-17 10:48:01,690 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 10:48:01.689192
+2025-05-17 10:58:01,691 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 10:58:01.691730
+2025-05-17 11:03:06,680 [DEBUG] [MainThread] [root/media.py:413]: Unknown source app in session: 'OperaSoftware.OperaGXWebBrowser.1687605523' - consider adding to source_list
+2025-05-17 11:03:16,412 [DEBUG] [MainThread] [root/media.py:413]: Unknown source app in session: 'OperaSoftware.OperaGXWebBrowser.1687605523' - consider adding to source_list
+2025-05-17 11:08:02,029 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 11:08:02.029423
+2025-05-17 11:18:01,728 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 11:18:01.728419
+2025-05-17 11:28:01,693 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 11:28:01.693994
+2025-05-17 11:38:01,827 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 11:38:01.827436
+2025-05-17 11:48:01,656 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 11:48:01.656144
+2025-05-17 11:58:01,643 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 11:58:01.642527
+2025-05-17 12:08:01,654 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 12:08:01.654067
+2025-05-17 12:18:01,662 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 12:18:01.662850
+2025-05-17 12:28:01,651 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 12:28:01.651912
+2025-05-17 12:38:01,837 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 12:38:01.837333
+2025-05-17 12:48:01,652 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 12:48:01.652668
+2025-05-17 12:48:29,944 [DEBUG] [MainThread] [root/media.py:413]: Unknown source app in session: 'OperaSoftware.OperaGXWebBrowser.1687605523' - consider adding to source_list
+2025-05-17 12:48:36,908 [DEBUG] [MainThread] [root/media.py:413]: Unknown source app in session: 'OperaSoftware.OperaGXWebBrowser.1687605523' - consider adding to source_list
+2025-05-17 12:49:21,432 [DEBUG] [MainThread] [root/media.py:413]: Unknown source app in session: 'OperaSoftware.OperaGXWebBrowser.1687605523' - consider adding to source_list
+2025-05-17 12:50:10,941 [DEBUG] [MainThread] [root/volume.py:330]: Attempting PolicyConfig interface with device: {0.0.0.00000000}.{e7b90066-7f3d-4e8b-80ad-f0f8679e8b05}
+2025-05-17 12:58:01,650 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 12:58:01.650618
+2025-05-17 13:08:01,655 [INFO] [MainThread] [root/weather.py:67]: Fetching new weather data at 2025-05-17 13:08:01.655668

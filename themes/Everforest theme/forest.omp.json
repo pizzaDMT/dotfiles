@@ -1,0 +1,82 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "palette": {
+        "os": "#E69875",
+        "closer": "#9ec2ad",
+        "pink": "#E67E80",
+        "lavender": "#A7C080",
+        "blue":  "#7FBBB3"
+  },
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "foreground": "#E69875",
+          "style": "plain",
+          "template": "{{.Icon}} ",
+          "type": "os"
+        },
+        {
+          "foreground": "p:os",
+          "properties": {
+            "folder_icon": "..\ue5fe..",
+            "home_icon": "~",
+            "style": "agnoster_short"
+          },
+          "style": "plain",
+          "template": "{{ .Path }} ",
+          "type": "path"
+        },
+        {
+          "foreground": "#9ec2ad",
+          "properties": {
+            "time_format": "15:04:05"
+          },
+          "style": "plain",
+          "template": " \u2665 {{ .CurrentDate | date .Format }} ",
+          "type": "time"
+        },
+        {
+          "foreground": "p:os",
+          "properties": {
+            "folder_icon": "..\ue5fe..",
+            "home_icon": "~",
+            "style": "agnoster_short"
+          },
+          "style": "plain",
+          "template": "{{ .Path }} ",
+          "type": "path"
+        },
+        {
+          "foreground": "p:lavender",
+          "properties": {
+            "branch_icon": "\ue725 ",
+            "cherry_pick_icon": "\ue29b ",
+            "commit_icon": "\uf417 ",
+            "fetch_status": false,
+            "fetch_upstream_icon": false,
+            "merge_icon": "\ue727 ",
+            "no_commits_icon": "\uf0c3 ",
+            "rebase_icon": "\ue728 ",
+            "revert_icon": "\uf0e2 ",
+            "tag_icon": "\uf412 "
+          },
+          "template": "{{ .HEAD }} ",
+          "style": "plain",
+          "type": "git"
+        },
+        {
+          "style": "plain",
+          "foreground": "p:closer",
+          "template": "\uf105",
+          "type": "text"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "final_space": true,
+  "version": 3
+}
+

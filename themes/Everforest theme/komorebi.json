@@ -1,0 +1,32 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/refs/heads/master/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding":4,
+  "default_container_padding": 8,
+  "border": true,
+  "border_width": 3,
+  "border_offset": -1,
+  "border_style": "Rounded",
+  "border_colours": {
+      "single": "#758d6c",
+      "stack": "#cba6f7",
+      "monocle": "#fab387",
+      "unfocused": "#475258"
+  
+  },
+  "display_index_preferences": {
+    "0": "GSM5B7F-5&3a119959&4&UID41217",
+    "1": "DELA0E6-5&3a119959&4&UID41216"
+  },
+  "monitors": [
+    {
+      "workspaces": [{ "name": "a", "layout": "UltrawideVerticalStack" }]
+    },
+    {
+      "workspaces": [{ "name": "b", "layout": "Grid" }]
+    }      
+  ]
+  }
+
