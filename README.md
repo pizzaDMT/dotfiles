@@ -1,3 +1,5 @@
+Programs I use in most of my rices: Yasb, komorebi, cava,fastfetch, btop4win, bottom resource manager, pipes.rs
+
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠋⣉⣢⣤⣤⣤⣤⣴⣶⣤⣤⣄⣈⠙⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⢁⣠⣴⣿⡏⢀⣠⣿⣿⣿⣿⡿⠿⠿⠿⢿⣧⣀⣁⡨⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠋⡑⠄⠤⠒⣉⢀⣴⣿⣿⣿⣿⣿⣿⠿⢛⣩⣥⣶⣶⣶⣾⣷⣶⣦⣍⡛⢿⣦⡐⠉⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
