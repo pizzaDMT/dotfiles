@@ -1,0 +1,636 @@
+/*Everforest mod
+
+/*VARIABLES AND SOME DEFAULT SETTINGS*/
+:root {
+    --fg: #D3C6AA;
+    --bg: #232A2E;
+    --bg-alt: #343F44;
+    --ui-dark: #232A2E;
+    --ui-light: #3D484D;
+
+    --red: #E67E80;
+    --orange: #E69875;
+    --yellow: #DBBC7F;
+    --green: #A7C080;
+    --aqua: #83C092;
+    --blue: #7FBBB3;
+    --purple: #D699B6;
+
+    --grey0: #475258;
+    --grey1: #56635F;
+    --grey2: #4F585E;
+    --fadedgreen: #9ec2ad;
+    --text: #b3a995;
+    --subtext0: #A7C080;
+    --subtext1: #4F585E;
+
+    --surface1: #3D484D;
+    --surface2: #475258;
+
+    --mantle: #2D353B;
+    --crust: #232A2E;
+    --basetransparent: rgba(45, 53, 59, 0.6);
+
+    --winbutton: #56635F;
+    --icon: #D3C6AA;
+}
+
+
+/* -------------------------------------------------------------------------------------------------- */
+/* 1. Layout and Containers                                                                           */
+/* -------------------------------------------------------------------------------------------------- */
+
+* {
+	font-size: 12px;
+	color: var(--text);
+	font-weight: 900;
+	font-family: "JetBrainsMono NFP";
+	margin: 0;
+	padding: 0;
+}
+.yasb-bar {
+	padding: 0 4px;
+	margin: 0;
+	background-color: var(--mantle);
+	border-radius: 8px;
+}
+
+.widget {
+	padding: 0 10px;
+	margin: 0;
+}
+
+.widget .label {
+	padding: 2px 2px 1px 2px;
+    
+
+}
+
+.widget .label.alt {
+	padding: 1px 8px 1px 8px;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+/* 2. Widget Containers                                                                               */
+/* -------------------------------------------------------------------------------------------------- */
+
+
+
+/* -------------------------------------------------------------------------------------------------- */
+/* 3. Widgets                                                                                         */
+/* -------------------------------------------------------------------------------------------------- */
+
+/***-------------------------------      • Windows Desktops •      --------------------------------***/
+
+
+
+
+/***-------------------------------      • Power Menu Widget •      --------------------------------***/
+
+.power-menu-popup {
+	background: var(--mantle);
+	border-radius: 8px;
+}
+
+.power-menu-widget .label {
+	color: #9ec2ad;
+	font-size: 16px;
+        padding: 0
+}
+.power-menu-popup .button {
+	padding: 0px;
+	margin: 5px;
+	width: 250px;
+	height: 175px;
+	border-radius: 8px;
+	background-color: var(--base);
+	color: white;
+
+}
+.power-menu-popup .button.hover {
+	background-color: var(--surface1);
+}
+.power-menu-popup .button .label {
+	margin-bottom: 0px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #9ec2ad;
+}
+.power-menu-popup .button .icon {
+	font-size: 55px;
+	padding-top: 25px;
+	padding-right: 10px;
+	color: #9ec2ad;
+}
+.power-menu-popup .button.cancel .icon {
+	color: var(--red);
+}
+.power-menu-popup .button.cancel .label {
+	color: var(--red);
+}
+
+
+/* --------------------------------------------------------------------------------------------------- */
+/* 6. Icons & Typography                                                                               */
+/* --------------------------------------------------------------------------------------------------- */
+
+.icon {
+	font-size: 16px;
+}
+.volume-widget .icon {
+	color: #9ec2ad;
+	margin: 1px 2px 0 0;
+}
+.start-menu .icon {
+	font-size: 18px;
+	color: #9ec2ad
+}
+.clock-widget .icon {
+	color: #9ec2ad;
+	font-size: 14px;
+	margin-right: 6px;
+}
+.clock-widget .label {
+    padding-right: -1px;
+
+}
+.apps-widget .label {
+    color: #9ec2ad;
+    font-size: 15px;
+    padding-left: 4;
+    padding-right: 4;
+}
+
+/***-------------------------------      • Recycle Bin Widget •      --------------------------------***/
+
+.recycle-bin-widget .icon {
+    color: #9ec2ad;
+} 
+.recycle-bin-widget .label {
+    font-size: 11px;
+    color :#bbb099;
+    font-weight: 800;
+}
+
+/***---------------------------------      • Weather Icons •      ----------------------------------***/
+
+.weather-widget .icon {
+    color: #9ec2ad;
+    padding-right: 3;
+}
+
+/***----------------------------------      • Weather Card •      -----------------------------------***/
+
+.weather-card {
+	background-color: var(--mantle);
+}
+.weather-card-today {
+	border-radius: 8px;
+	background-color: var(--mantle);
+	color: var(--text);
+}
+.weather-card-today .label {
+	font-size: 12px;
+}
+.weather-card-today .label.location {
+	font-size: 24px;
+	font-weight: 800;
+}
+.weather-card-today .label.alert {
+	font-size: 12px;
+	font-weight: 700;
+	background-color: rgba(247, 199, 42, 0.05);
+	border: 1px solid rgba(247, 209, 42, 0.1);
+	color: rgba(196, 181, 162, 0.85);
+	border-radius: 6px;
+	padding: 5px 0;
+}
+.weather-card-day {
+	border-radius: 8px;
+	background-color: var(--mantle);
+}
+.weather-card-day .label {
+	font-size: 12px;
+}
+
+/* Media Widget */
+
+.media-widget {
+	padding: 0;
+	margin-left: 0;
+}
+.media-widget .label {
+	color: #9ec2ad;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Hide media widget buttons */
+
+.media-widget .btn {
+	max-width: 0;
+}
+
+.calendar {
+	background-color: var(--mantle);
+}
+.calendar .calendar-table,
+.calendar .calendar-table::item {
+	background-color: var(--mantle);
+	color: var(--text);
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+.calendar .calendar-table::item:selected {
+	color: var(--surface1);
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 8px;
+}
+.calendar .day-label {
+	margin-top: 20px;
+}
+.calendar .day-label,
+.calendar .month-label,
+.calendar .date-label {
+	font-size: 16px;
+	color: #9ec2ad;
+	font-weight: 800;
+	min-width: 180px;
+	max-width: 180px;
+}
+.calendar .month-label {
+	font-weight: 700;
+	padding-bottom: 12px;
+}
+.calendar .date-label {
+	font-size: 88px;
+	font-weight: 900;
+	color: #9ec2ad;
+	margin-top: -20px;
+}
+
+.home-menu {
+	background-color: var(--mantle);
+	border-radius: 8px;
+	padding: 0;
+	margin-left: 0px;
+
+}
+.home-menu .menu-item {
+	padding: 8px 48px 8px 12px;
+	font-size: 13px;
+	font-weight: 600;
+}
+.home-menu .menu-item:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+	color: #9ec2ad;
+	margin: 4px 6px;
+	border-radius: 4px;
+}
+.home-menu .separator {
+	max-height: 1px;
+	background-color: #9ec2ad;
+	margin: 0 8px;
+}
+.home-widget .label{
+    color: #9ec2ad;
+    font-size: 14px;
+    background-color: var(--mantle);
+}
+
+
+
+/***----------------------------------      • Disk •      -----------------------------------***/
+
+.disk-widget {
+    padding: 0 6px 0 6px;
+}
+.disk-group {
+    background-color: var(--mantle);
+}
+.disk-group-row {
+    min-width: 220px;
+    max-width: 220px;
+    max-height: 40px;
+    margin: 0;
+    padding: 0;
+    border-radius: 6px;
+    border: 1px solid rgba(128, 128, 128, 0);
+}
+.disk-group-row:hover {
+    background-color:rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.disk-group-label-bar{
+    max-height:8px;
+    border:0px solid rgba(128, 128, 128, 0);
+    background-color: rgba(137, 180, 250, 0.1);
+    border-radius: 4px;
+}
+.disk-group-label-bar::chunk{
+    background-color: #9ec2ad;
+    border-radius: 4px;
+}
+.disk-group-label {
+    font-size: 10px;
+    color: #9ec2ad;
+}
+.disk-group-label-size {
+    font-size: 10px;
+    color: #9ec2ad;
+}
+.disk-widget .icon {
+  color: #9ec2ad;
+}
+
+
+.cava-widget {
+    padding: 0;
+    margin: 0;
+}
+
+/* CPU MEMORY Setting */
+.cpu-widget {
+    padding-right: 0;
+}
+.memory-widget {
+    padding-left: 0;
+}
+.cpu-widget .widget-container {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.memory-widget .widget-container {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.memory-widget .label {
+    min-width: 34px;
+    max-width: 34px;
+    color: var(--text);
+}
+.cpu-widget .label {
+    min-width: 34px;
+    max-width: 34px;
+    color: var(--text);
+}
+.cpu-widget .icon {
+    color: #9ec2ad;
+    margin-right: 3px;
+}
+.memory-widget .icon {
+    color: #9ec2ad;
+    margin-right: 3px;
+}
+
+
+.update-check-widget {
+    padding: 0 0px 0 0px;
+}
+.update-check-widget .icon {
+    font-size: 11px;
+}
+.update-check-widget .widget-container.winget,
+.update-check-widget .widget-container.windows {
+    background: var(--mauve);
+    margin: 0px 0px 0px 0px;
+    border-radius: 10px;
+    border: 0px solid var(--sapphire);
+}
+.update-check-widget .widget-container.winget .icon,
+.update-check-widget .widget-container.windows .icon {
+    color: var(--base);
+    margin: 0 2px 0 6px;
+}
+.update-check-widget .widget-container.winget .label,
+.update-check-widget .widget-container.windows .label {
+    margin: 0 6px 0 1px;
+    color: var(--base);
+    font-weight: 900;
+    font-size: 14px;
+}
+
+
+
+.traffic-widget .icon {
+    color: #9ec2ad;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+.traffic-widget .label {
+color: var(--text);
+font-size: 11px;
+font-weight: 800;
+}
+
+
+.widget {
+   border-radius: 8px;
+    margin: 8px 4px;
+    background-color: var(--mantle);
+}
+
+
+.notes-widget {
+    padding: 4;
+}
+.notes-widget .label {
+   font-size: 14px;
+   color: var(--text);
+}
+.notes-widget .icon {
+    font-size: 16px;
+    color: #9ec2ad;
+}
+/* Notes Widget Menu */
+.notes-menu {
+    min-width: 400px;
+    max-width: 400px;
+    background-color: var(--mantle);
+}
+.notes-menu .note-item {
+    background-color:transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.notes-menu .note-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.notes-menu .note-item .icon {
+    font-size: 16px;
+    padding: 0 4px;
+    color: #9ec2ad;
+}
+.notes-menu .delete-button {
+    color: #ff6b6b;
+    background: transparent;
+    border: none;
+    font-size: 8px;
+    padding: 7px 8px;
+    border-radius: 3px;
+}
+.notes-menu .delete-button:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+.notes-menu .note-item .title {
+    font-size: 13px;
+    font-family: 'JetBrainsMono NFP';
+}
+.notes-menu .note-item .date {
+    font-size: 12px;
+    font-family: 'JetBrainsMono NFP';
+    color: rgba(255, 255, 255, 0.4);
+}
+.notes-menu .empty-list {
+    font-family: 'JetBrainsMono NFP';
+    color: #9ec2ad;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0 20px 0;     
+}
+.notes-menu .add-button,  
+.notes-menu .cancel-button {
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 4px;
+    color: #E69875;
+    font-family: 'JetBrainsMono NFP';
+}
+.notes-menu .cancel-button {
+    margin-left: 4px;
+}
+.notes-menu .add-button:hover,
+.notes-menu .cancel-button:hover {
+    background-color: var(--mantle);
+}
+.notes-menu .scroll-area {
+    background: transparent; 
+    border: none; 
+    border-radius:0;
+}
+.notes-menu .note-input {
+    background-color:rgba(17, 17, 27, 0.2);
+    border: px solid #9ec2ad;
+    font-family: 'JetBrainsMono NFP';
+    font-size: 12px;
+    max-height: 30px;
+    padding: 4px;
+    padding-bottom: 100px;
+    border-radius: 6px;
+}
+.note-input:focus {
+    border: 1px solid #9ec2ad;
+}
+
+.media-menu {
+    min-width: 500px;
+    max-width: 650px;
+    background-color: var(--mantle);
+	border-radius: 8px;
+}
+.media-menu .title,
+.media-menu .artist,
+.media-menu .source {
+    font-size: 17px;
+    color: #9ec2ad;
+    font-weight: 600;
+    margin-left: 10px;
+    font-family: 'JetBrainsMono NFP';
+}
+.media-menu .artist {
+    font-size: 13px;
+    font-weight: 700;
+    color: #7e8f85;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.media-menu .source {
+    font-size: 11px;
+    color: #000;
+    font-weight: normal;
+    border-radius: 3px;
+    background-color: #bac2de;
+    padding: 2px 4px;
+
+}
+/* The source class name is the same as what you see in the media widget; just replace spaces with dashes and convert it to lowercase.
+Example: "Windows Media" becomes "windows-media" */
+.media-menu .source.firefox {
+    background-color: #ff583b;
+    color: #ffffff;
+}
+.media-menu .source.spotify {
+    background-color: #199143;
+    color: #ffffff;
+}
+.media-menu .source.edge {
+    background-color: #0078d4;
+    color: #ffffff;
+}
+.media-menu .source.windows-media {
+    background-color: #0078d4;
+    color: #ffffff;
+}
+
+.media-menu .btn {
+    font-family: "Segoe Fluent Icons";
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 2px 0px 2px;
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    border-radius: 20px;
+	color: #7e8f85 ;
+}
+.media-menu .btn.prev {
+    margin-left: 10px;
+}
+.media-menu .btn:hover {
+    color: #9ec2ad;
+}
+.media-menu .btn.play {
+    font-size: 24px
+}
+.media-menu .btn.disabled:hover,
+.media-menu .btn.disabled {
+    color: #4e525c;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.media-menu .playback-time {
+    font-size: 12px;
+    font-family: 'JetBrainsMono NFP';
+    color: #7e8f85; 
+    margin-top: 20px;
+    min-width: 100px;
+}
+.media-menu .progress-slider {
+    height: 10px;
+    margin: 5px 4px;
+    border-radius: 3px;
+}
+.media-menu .progress-slider::groove {
+    background: transparent;
+    height: 2px;
+    border-radius: 3px;
+    background: var(--mantle);
+
+}
+.media-menu .progress-slider::groove:hover {
+    background: transparent;
+    height: 6px;
+    border-radius: 3px;
+    background: var(--mantle);
+}
+.media-menu .progress-slider::sub-page {
+    background: #7e8f85;
+    border-radius: 3px;
+    height: 4px;
+}
+
