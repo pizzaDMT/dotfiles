@@ -77,10 +77,10 @@
           "foreground": "#c2b69f",
           "leading_diamond": "\ue0b2",
           "properties": {
-            "time_format": "༼ つ ◕_◕ ༽つ"
+            "time_format": "༼ つ◕_◕ ༽つ"
           },
           "style": "diamond",
-          "template": " \ue641 {{ .CurrentDate | date .Format }} \uf073 ",
+          "template": "  {{ .CurrentDate | date .Format }}  ",
           "trailing_diamond": "\ue0b0",
           "type": "time"
         },
