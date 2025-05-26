@@ -1,0 +1,15 @@
+
+Black: #232A2E  Dark-Black: #343F44
+Red: #E67E80  Dark-Red: #E69875
+Green: #A7C080  Dark-Green: #A7C080
+Yellow: #DBDAB0  Dark-Yellow: #D3D0BF
+Blue: #7FBBB3   Dark-Blue: #7FBBB3
+Purple: #D699B6  Dark-Purple: #D699B6
+Cyan: #83C092  Dark-Cyan: #83C092
+White: #C2B69F  Dark-White: #D3D0BF
+
+
+Foreground: #D3C6AA
+Background: #232A2E
+Cursor-Color: #C2B69F
+Selection-Background: #D6FFDA
