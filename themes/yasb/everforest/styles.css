@@ -19,8 +19,11 @@
     --grey0: #475258;
     --grey1: #56635F;
     --grey2: #4F585E;
-    --fadedgreen: #9ec2ad;
-    --text: #c2b69f;
+    
+    --fadedgreen: #87a192;
+    
+    --text: #D3D0BF;
+    --textfaded: #c2b69f;
     --subtext0: #A7C080;
     --subtext1: #4F585E;
 
@@ -156,7 +159,7 @@
 }
 .apps-widget .label {
     color: #9ec2ad;
-    font-size: 15px;
+    font-size: 17px;
     padding-left: 4;
     padding-right: 4;
 }
@@ -168,7 +171,7 @@
 } 
 .recycle-bin-widget .label {
     font-size: 11px;
-    color :#c2b69f;
+    color : var(--text);
     font-weight: 800;
 }
 
@@ -222,10 +225,10 @@
 .media-widget .label {
     background-color: rgba(0, 0, 0, 0.062);
     border-radius: 6px;
-	color: #9ec2ad;
+	color: var(--fadedgreen);
     font-size: 12px;
     padding-left: 5px;
-    padding-right: 24px;
+    padding-right: 9px;
 }
 
 /* Hide media widget buttons */
@@ -259,7 +262,7 @@
 .calendar .month-label,
 .calendar .date-label {
 	font-size: 16px;
-	color: #c2b69f;
+	color: var(--text);
 	font-weight: 800;
 	min-width: 180px;
 	max-width: 180px;
@@ -271,7 +274,7 @@
 .calendar .date-label {
 	font-size: 88px;
 	font-weight: 900;
-	color: #c2b69f;
+	color: var(--text);
 	margin-top: -20px;
 }
 
@@ -284,8 +287,9 @@
 }
 .home-menu .menu-item {
 	padding: 8px 48px 8px 12px;
-	font-size: 13px;
-	font-weight: 600;
+	font-size: 14px;
+	font-weight: 700;
+    color: #9ec2ad;
 }
 .home-menu .menu-item:hover {
 	background-color: rgba(255, 255, 255, 0.05);
@@ -424,7 +428,7 @@
     padding-left: 6px;
 }
 .traffic-widget .label {
-color: #9ec2ad;
+color: var(--fadedgreen);
 }
 
 
@@ -517,9 +521,9 @@ color: #9ec2ad;
     border: px solid #9ec2ad;
     font-family: 'JetBrainsMono NFP';
     font-size: 12px;
-    max-height: 30px;
+    max-height: 200px;
     padding: 4px;
-    padding-bottom: 100px;
+    padding-bottom: 4px;
     border-radius: 6px;
 }
 .note-input:focus {
