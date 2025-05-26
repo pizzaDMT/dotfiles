@@ -20,7 +20,7 @@
     --grey1: #56635F;
     --grey2: #4F585E;
     --fadedgreen: #9ec2ad;
-    --text: #c2b69f;
+    --text: #D3D0BF;
     --subtext0: #A7C080;
     --subtext1: #4F585E;
 
@@ -168,7 +168,7 @@
 } 
 .recycle-bin-widget .label {
     font-size: 11px;
-    color :#c2b69f;
+    color : var(--text);
     font-weight: 800;
 }
 
@@ -284,8 +284,9 @@
 }
 .home-menu .menu-item {
 	padding: 8px 48px 8px 12px;
-	font-size: 13px;
-	font-weight: 600;
+	font-size: 14px;
+	font-weight: 700;
+    color: #9ec2ad;
 }
 .home-menu .menu-item:hover {
 	background-color: rgba(255, 255, 255, 0.05);
@@ -517,9 +518,9 @@ color: #9ec2ad;
     border: px solid #9ec2ad;
     font-family: 'JetBrainsMono NFP';
     font-size: 12px;
-    max-height: 30px;
+    max-height: 200px;
     padding: 4px;
-    padding-bottom: 100px;
+    padding-bottom: 4px;
     border-radius: 6px;
 }
 .note-input:focus {
