@@ -83,13 +83,15 @@ widgets:
   home:
     type: "yasb.home.HomeWidget"
     options:
-      label: "༼ つ ◕_◕ ༽つ"
+      label: "༼ つ◕_◕ ༽つ"
       menu_list:
         - { title: "Home", path: "~" }
         - { title: "Downloads", path: "C:\\Users\\pizza\\Downloads"}
         - { title: "Documents", path: "C:\\Users\\pizza\\Documents"}
         - { title: "Pictures", path: "C:\\Users\\pizza\\Pictures"}
         - { title: "Videos", path: "C:\\Users\\pizza\\Videos"}
+        - { title: "Streamio", path: "C:\\Users\\pizza\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Stremio\\Stremio.lnk"}
+        - { title: "Steam", path: "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Steam\\Steam.lnk"} 
         - { title: "Opera", path: "C:\\Users\\pizza\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Opera GX Browser.lnk"}    
       system_menu: true
       power_menu: false
@@ -114,8 +116,8 @@ widgets:
        on_middle: "do_nothing"
        on_right: "toggle_label"
       max_field_size:
-        label: 80
-        label_alt: 80
+        label: 100
+        label_alt: 100
       show_thumbnail: false
       controls_only: false
       controls_left: true
@@ -137,7 +139,7 @@ widgets:
        offset_top: 6
        offset_left: 0
        thumbnail_corner_radius: 8
-       thumbnail_size: 180
+       thumbnail_size: 160
        max_title_size: 80
        max_artist_size: 80
        show_source: true
@@ -149,7 +151,7 @@ widgets:
       label_shadow:
        enabled: true
        color: "black"
-       radius: 2
+       radius: 1
        offset: [ 1, 1 ]
   clock:
     type: "yasb.clock.ClockWidget"
@@ -166,7 +168,7 @@ widgets:
       update_interval: 600 #Update interval in seconds, Min 600
       hide_decimal: true
       location: "Brazil Goiania 74840-530"
-      units: "imperial"
+      units: "metric"
       callbacks:
         on_left: "toggle_card"
       icons:
@@ -350,6 +352,6 @@ widgets:
         right: 0
       label: "{data}"
       app_list:
-        - { icon: "\udb82\ude1e",launch: "C:\\Users\\pizza\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe" }    
+        - { icon: "\uf489", launch: "wt" }    
         - { icon: "\uf1ff",launch: "C:\\Users\\pizza\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Discord Inc\\Discord.lnk" }
-        - { icon: "\uf489", launch: "wt" }      
+        - { icon: "\udb82\ude1e",launch: "C:\\Users\\pizza\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe" }      
