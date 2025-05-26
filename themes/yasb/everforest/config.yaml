@@ -42,20 +42,19 @@ bars:
           "cpu",
           "memory",
           "traffic",
-          "notes"
+
         ]
       center:
         [
+          "apps",          
           "clock",
-          "weather"
+          "weather",
+          "notes"          
         ]
       right:
         [
           "cava",
           "media",
-          
-          "volume",
-          "wifi",
           "disk",
           "power_menu"
         ]
@@ -66,15 +65,15 @@ widgets:
       bar_height: 12
       gradient: 1
       reverse: 0
-      foreground: "#DBBC7F"
-      gradient_color_1: '#DBBC7F'
-      gradient_color_2: '#DBBC7F'
-      bars_number: 10
+      foreground: "#D3C6AA"
+      gradient_color_1: '#bbb099'
+      gradient_color_2: '#bbb099'
+      bars_number: 12
       bar_spacing: 2
       bar_width: 5
-      noise_reduction: 0
+      noise_reduction: 0.20
       framerate: 25
-      sleep_timer: 2
+      sleep_timer: 0
       hide_empty: false
       container_padding:
         top: 0
@@ -84,13 +83,14 @@ widgets:
   home:
     type: "yasb.home.HomeWidget"
     options:
-      label: "^_^"
+      label: "༼ つ ◕_◕ ༽つ"
       menu_list:
         - { title: "Home", path: "~" }
         - { title: "Downloads", path: "C:\\Users\\pizza\\Downloads"}
         - { title: "Documents", path: "C:\\Users\\pizza\\Documents"}
         - { title: "Pictures", path: "C:\\Users\\pizza\\Pictures"}
         - { title: "Videos", path: "C:\\Users\\pizza\\Videos"}
+        - { title: "Opera", path: "C:\\Users\\pizza\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Opera GX Browser.lnk"}    
       system_menu: true
       power_menu: false
       blur: true
@@ -114,8 +114,8 @@ widgets:
        on_middle: "do_nothing"
        on_right: "toggle_label"
       max_field_size:
-        label: 50
-        label_alt: 50
+        label: 80
+        label_alt: 80
       show_thumbnail: false
       controls_only: false
       controls_left: true
@@ -131,15 +131,15 @@ widgets:
        blur: true
        round_corners: true
        round_corners_type: "normal"
-       border_color: "#9ec2ad"
+       border_color: "#7e8f85"
        alignment: "right"
        direction: "down"
        offset_top: 6
        offset_left: 0
        thumbnail_corner_radius: 8
-       thumbnail_size: 120
+       thumbnail_size: 180
        max_title_size: 80
-       max_artist_size: 20
+       max_artist_size: 80
        show_source: true
       media_menu_icons:
        play: "\ue768"
@@ -149,18 +149,18 @@ widgets:
       label_shadow:
        enabled: true
        color: "black"
-       radius: 3
+       radius: 2
        offset: [ 1, 1 ]
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      label: "<span>\ue769</span>{%I:%M %p}"
-      label_alt: "{%a, %d %b %H:%M:%S}"
+      label: "<span>\uf017</span> {%a, %d %b %H:%M:%S}"
+      label_alt: "<span>\ue769</span>{%I:%M %p}"
       timezones: [] #Looking up time zone info from registry
   weather:
     type: "yasb.weather.WeatherWidget"
     options:
-      label: "<span>{icon}</span> {temp}"
+      label: "<span>{icon}</span> {conditions} {temp}"
       label_alt: "{location}: {conditions}, Min {min_temp}, Max {max_temp}, Humidity {humidity}"
       api_key: '24b6c2cda6d84066b0304531241908'
       update_interval: 600 #Update interval in seconds, Min 600
@@ -184,33 +184,12 @@ widgets:
         blur: True
         round_corners: True
         round_corners_type: "normal"
-        border_color: "#9ec2ad"
+        border_color: "#7e8f85"
         alignment: "right"
         direction: "down"
         distance: 6
         icon_size: 48
-  volume:
-    type: "yasb.volume.VolumeWidget"
-    options:
-      label: "<span>{icon}</span> {level}"
-      label_alt: "{volume}"
-      volume_icons:
-        - "\ueee8" 
-        - "\uf026"
-        - "\uf027" 
-        - "\uf027"  
-        - "\uf028"
-      audio_menu:
-        blur: False
-        round_corners: True
-        round_corners_type: 'normal'
-        border_color: '#9ec2ad'
-        alignment: 'right'
-        direction: 'down'
-        distance: 6
-      callbacks:
-        on_left: "toggle_volume_menu"
-        on_right: "exec cmd.exe /c start ms-settings:sound"
+
   power_menu:
     type: "yasb.power_menu.PowerMenuWidget"
     options:
@@ -227,32 +206,7 @@ widgets:
         sleep: ["\udb82\udd04","Sleep"]
         lock: ["\uf023","Lock"]
         cancel: ["\udb81\udf3a","Cancel"]
-  wallpapers:
-    type: "yasb.wallpapers.WallpapersWidget"
-    options:
-      label: "<span>\uf03e</span>"
-      image_path: "C:\\Users\\HP\\Pictures\\Wallpapers" # Example path to folder with images
-      change_automatically: false # Automatically change wallpaper
-      update_interval: 60 # If change_automatically is true, update interval in seconds
-      gallery:
-        enabled: false
-        blur: false
-        image_width: 200
-        image_per_page: 8
-        show_buttons: true
-        orientation: "portrait"
-        image_spacing: 8
-        lazy_load: true
-        lazy_load_delay: 80
-        lazy_load_fadein: 400
-        image_corner_radius: 20
-        enable_cache: true
-      icons:
-        recording: "\ueba7"
-        stopped: "\ueba5"
-        paused: "\ueba7"
-      hide_when_not_recording: true
-      blinking_icon: true
+
   disk:
     type: "yasb.disk.DiskWidget"
     options:
@@ -264,7 +218,7 @@ widgets:
           blur: True
           round_corners: True
           round_corners_type: "normal"
-          border_color: "System"
+          border_color: "#7e8f85"
           alignment: "right"
           direction: "down"
           distance: 6
@@ -309,28 +263,6 @@ widgets:
         left: 8
         bottom: 0
         right: 0
-  wifi:
-      type: "yasb.wifi.WifiWidget"
-      options:
-        label: "<span>{wifi_icon}</span>"
-        label_alt: "{wifi_name} {wifi_strength}%"
-        update_interval: 5000
-        callbacks:
-          on_left: "exec cmd.exe /c start ms-settings:network"
-          on_middle: "do_nothing"
-          on_right: "toggle_label"
-        container_padding:
-          top: 0
-          left: 0
-          bottom: 0
-          right: 0
-        wifi_icons: [
-          "\udb82\udd2e",  # Icon for 0% strength
-          "\udb82\udd1f",  # Icon for 1-20% strength
-          "\udb82\udd22",  # Icon for 21-40% strength
-          "\udb82\udd25",  # Icon for 41-80% strength
-          "\udb82\udd28"   # Icon for 81-100% strength
-        ]
   update_check:
     type: "yasb.update_check.UpdateCheckWidget"
     options:
@@ -347,7 +279,7 @@ widgets:
   traffic:
     type: "yasb.traffic.TrafficWidget"
     options:
-      label: "<span>\udb82\udcfa</span> \uea9a{download_speed} \ueaa1{upload_speed}"
+      label: "<span>\udb82\udcfa</span>    \uea9a{download_speed} \ueaa1{upload_speed}"
       label_alt: "<span>\udb82\udcfa</span> Download {download_speed} | Upload {upload_speed}"
       update_interval: 1000
       callbacks:
@@ -367,7 +299,7 @@ widgets:
       blur: true
       round_corners: true
       round_corners_type: "normal"
-      border_color: "System"
+      border_color: "#7e8f85"
       alignment: "right"
       direction: "down"
       offset_top: 6
@@ -403,7 +335,21 @@ widgets:
         on_right: "toggle_label"
         on_middle: "empty_bin"
       label_shadow:
-        enabled: true
+        enabled: false
         color: "black"
         radius: 3
         offset: [ 1, 1 ]
+
+  apps:
+    type: "yasb.applications.ApplicationsWidget"
+    options:
+      container_padding:
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+      label: "{data}"
+      app_list:
+        - { icon: "\udb82\ude1e",launch: "C:\\Users\\pizza\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe" }    
+        - { icon: "\uf1ff",launch: "C:\\Users\\pizza\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Discord Inc\\Discord.lnk" }
+        - { icon: "\uf489", launch: "wt" }      
