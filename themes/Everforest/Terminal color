@@ -6,10 +6,10 @@ Yellow: #DBDAB0  Dark-Yellow: #D3D0BF
 Blue: #7FBBB3   Dark-Blue: #7FBBB3
 Purple: #D699B6  Dark-Purple: #D699B6
 Cyan: #83C092  Dark-Cyan: #83C092
-White: #C2B69F  Dark-White: #D3D0BF
+White: #D3D0BF  Dark-White: #D3C6AA
 
 
-Foreground: #D3C6AA
+Foreground: #D3D0BF
 Background: #232A2E
 Cursor-Color: #C2B69F
 Selection-Background: #D6FFDA
