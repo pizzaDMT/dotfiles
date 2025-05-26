@@ -156,7 +156,7 @@
 }
 .apps-widget .label {
     color: #9ec2ad;
-    font-size: 15px;
+    font-size: 17px;
     padding-left: 4;
     padding-right: 4;
 }
@@ -437,11 +437,12 @@ color: #9ec2ad;
 
 
 .notes-widget {
-    padding: 4;
+    padding: 0;
 }
 .notes-widget .label {
    font-size: 14px;
    color: var(--text);
+   margin: 0px;
 }
 .notes-widget .icon {
     font-size: 16px;
