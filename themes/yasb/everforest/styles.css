@@ -20,7 +20,7 @@
     --grey1: #56635F;
     --grey2: #4F585E;
     --fadedgreen: #9ec2ad;
-    --text: #D3C6AA;
+    --text: #c2b69f;
     --subtext0: #A7C080;
     --subtext1: #4F585E;
 
@@ -32,7 +32,7 @@
     --basetransparent: rgba(45, 53, 59, 0.6);
 
     --winbutton: #56635F;
-    --icon: #D3C6AA;
+    --icon: #9ec2ad;
 }
 
 
@@ -42,17 +42,17 @@
 
 * {
 	font-size: 12px;
-	color: #D3C6AA;
+	color: var(--text);
 	font-weight: 900;
 	font-family: "JetBrainsMono NFP";
 	margin: 0;
 	padding: 0;
 }
 .yasb-bar {
-	padding: 0 8px;
+	padding: 0 4px;
 	margin: 0;
 	background-color: var(--mantle);
-	border-radius: 15px;
+	border-radius: 8px;
 }
 
 .widget {
@@ -75,6 +75,7 @@
 /* -------------------------------------------------------------------------------------------------- */
 
 
+
 /* -------------------------------------------------------------------------------------------------- */
 /* 3. Widgets                                                                                         */
 /* -------------------------------------------------------------------------------------------------- */
@@ -82,35 +83,7 @@
 /***-------------------------------      • Windows Desktops •      --------------------------------***/
 
 
-/***---------------------------------      • Audio Widget •      ----------------------------------***/
 
-.audio-menu {
-	background-color: var(--mantle);
-}
-.audio-container .device {
-	background-color: var(--mantle);
-	border: none;
-	padding: 6px 8px 6px 4px;
-	margin: 2px 0;
-	font-size: 12px;
-	border-radius: 4px;
-}
-.audio-container .device.selected {
-	background-color: var(--surface2);
-}
-.audio-container .device:hover {
-	background-color: #9ec2ad;
-}
-
-.volume-slider::groove {
-	color: var(--mantle);
-}
-.volume-slider::handle {
-	background-color: #9ec2ad;
-}
-.audio-menu {
-	background-color: var(--mantle);
-}
 
 /***-------------------------------      • Power Menu Widget •      --------------------------------***/
 
@@ -120,7 +93,7 @@
 }
 
 .power-menu-widget .label {
-	color: #8cb9a1;
+	color: #9ec2ad;
 	font-size: 16px;
         padding: 0
 }
@@ -141,13 +114,13 @@
 	margin-bottom: 0px;
 	font-size: 16px;
 	font-weight: 600;
-	color: var(--text);
+	color: #9ec2ad;
 }
 .power-menu-popup .button .icon {
 	font-size: 55px;
 	padding-top: 25px;
 	padding-right: 10px;
-	color: var(--text);
+	color: #9ec2ad;
 }
 .power-menu-popup .button.cancel .icon {
 	color: var(--red);
@@ -175,19 +148,35 @@
 .clock-widget .icon {
 	color: #9ec2ad;
 	font-size: 14px;
-	margin-right: 7px;
+	margin-right: 6px;
+}
+.clock-widget .label {
+    padding-right: -1px;
+
+}
+.apps-widget .label {
+    color: #9ec2ad;
+    font-size: 15px;
+    padding-left: 4;
+    padding-right: 4;
 }
 
 /***-------------------------------      • Recycle Bin Widget •      --------------------------------***/
 
 .recycle-bin-widget .icon {
     color: #9ec2ad;
-} /*Style for icon.*/
+} 
+.recycle-bin-widget .label {
+    font-size: 11px;
+    color :#c2b69f;
+    font-weight: 800;
+}
 
 /***---------------------------------      • Weather Icons •      ----------------------------------***/
 
 .weather-widget .icon {
     color: #9ec2ad;
+    padding-right: 3;
 }
 
 /***----------------------------------      • Weather Card •      -----------------------------------***/
@@ -231,8 +220,12 @@
 	margin-left: 0;
 }
 .media-widget .label {
+    background-color: rgba(0, 0, 0, 0.062);
+    border-radius: 6px;
 	color: #9ec2ad;
+    font-size: 12px;
     padding-left: 5px;
+    padding-right: 24px;
 }
 
 /* Hide media widget buttons */
@@ -246,7 +239,7 @@
 }
 .calendar .calendar-table,
 .calendar .calendar-table::item {
-	background-color: rgba(17, 17, 27, 0);
+	background-color: var(--mantle);
 	color: var(--text);
 	margin: 0;
 	padding: 0;
@@ -255,8 +248,8 @@
 }
 
 .calendar .calendar-table::item:selected {
-	color: var(--surface1);
-	background: #9ec2ad;
+	color: var(--text);
+	background: #53535363;
 	border-radius: 8px;
 }
 .calendar .day-label {
@@ -266,19 +259,19 @@
 .calendar .month-label,
 .calendar .date-label {
 	font-size: 16px;
-	color: #9ec2ad;
-	font-weight: 700;
+	color: #c2b69f;
+	font-weight: 800;
 	min-width: 180px;
 	max-width: 180px;
 }
 .calendar .month-label {
-	font-weight: normal;
+	font-weight: 700;
 	padding-bottom: 12px;
 }
 .calendar .date-label {
 	font-size: 88px;
 	font-weight: 900;
-	color: #9ec2ad;
+	color: #c2b69f;
 	margin-top: -20px;
 }
 
@@ -295,8 +288,8 @@
 	font-weight: 600;
 }
 .home-menu .menu-item:hover {
-	background-color: #9ec2ad;
-	color: #181825;
+	background-color: rgba(255, 255, 255, 0.05);
+	color: #9ec2ad;
 	margin: 4px 6px;
 	border-radius: 4px;
 }
@@ -305,28 +298,10 @@
 	background-color: #9ec2ad;
 	margin: 0 8px;
 }
-
-
-
-.volume-slider {
-	border: none;
-}
-.audio-menu {
-	background-color: var(mantle);
-}
-.audio-container .device {
-	background-color: var(--mantle);
-	border: none;
-	padding: 6px 8px 6px 4px;
-	margin: 2px 0;
-	font-size: 12px;
-	border-radius: 4px;
-}
-.audio-container .device.selected {
-	background-color: var(--mantle);
-}
-.audio-container .device:hover {
-	background-color: #7e8f85;
+.home-widget .label{
+    color: #9ec2ad;
+    font-size: 11px;
+    background-color: var(--mantle);
 }
 
 
@@ -337,7 +312,7 @@
     padding: 0 6px 0 6px;
 }
 .disk-group {
-    background-color:rgba(17, 17, 27, 0.4);
+    background-color: var(--mantle);
 }
 .disk-group-row {
     min-width: 220px;
@@ -359,15 +334,16 @@
     border-radius: 4px;
 }
 .disk-group-label-bar::chunk{
-    background-color: #7e8f85;
+    background-color: #9ec2ad;
     border-radius: 4px;
 }
 .disk-group-label {
     font-size: 10px;
+    color: #9ec2ad;
 }
 .disk-group-label-size {
     font-size: 10px;
-    color: #7e8f85;
+    color: #9ec2ad;
 }
 .disk-widget .icon {
   color: #9ec2ad;
@@ -397,10 +373,12 @@
 .memory-widget .label {
     min-width: 34px;
     max-width: 34px;
+    color: var(--text);
 }
 .cpu-widget .label {
     min-width: 34px;
     max-width: 34px;
+    color: var(--text);
 }
 .cpu-widget .icon {
     color: #9ec2ad;
@@ -409,12 +387,6 @@
 .memory-widget .icon {
     color: #9ec2ad;
     margin-right: 3px;
-}
-
-
-/* WIFI Setting */
-.wifi-widget .icon {
-    color: #9ec2ad !important;
 }
 
 
@@ -452,7 +424,7 @@
     padding-left: 6px;
 }
 .traffic-widget .label {
-color: var(--text);
+color: #9ec2ad;
 }
 
 
@@ -555,22 +527,24 @@ color: var(--text);
 }
 
 .media-menu {
-    min-width: 420px;
-    max-width: 420px;
+    min-width: 500px;
+    max-width: 650px;
     background-color: var(--mantle);
 	border-radius: 8px;
 }
 .media-menu .title,
 .media-menu .artist,
 .media-menu .source {
-    font-size: 14px;
+    font-size: 17px;
+    color: #9ec2ad;
     font-weight: 600;
     margin-left: 10px;
-    font-family: 'Segoe UI';
+    font-family: 'JetBrainsMono NFP';
 }
 .media-menu .artist {
     font-size: 13px;
-    color: var(--text);
+    font-weight: 700;
+    color: #7e8f85;
     margin-top: 0px;
     margin-bottom: 8px;
 }
@@ -612,7 +586,7 @@ Example: "Windows Media" becomes "windows-media" */
     min-height: 40px;
     max-height: 40px;
     border-radius: 20px;
-	color: #9ec2ad ;
+	color: #7e8f85 ;
 }
 .media-menu .btn.prev {
     margin-left: 10px;
@@ -630,9 +604,9 @@ Example: "Windows Media" becomes "windows-media" */
 }
 
 .media-menu .playback-time {
-    font-size: 13px;
-    font-family: 'Segoe UI';
-    color: var(--text);
+    font-size: 12px;
+    font-family: 'JetBrainsMono NFP';
+    color: #7e8f85; 
     margin-top: 20px;
     min-width: 100px;
 }
@@ -655,7 +629,7 @@ Example: "Windows Media" becomes "windows-media" */
     background: var(--mantle);
 }
 .media-menu .progress-slider::sub-page {
-    background: var(--text);
+    background: #7e8f85;
     border-radius: 3px;
     height: 4px;
 }
