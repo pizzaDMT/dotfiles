@@ -7,6 +7,7 @@
     --bg-alt: #343F44;
     --ui-dark: #232A2E;
     --ui-light: #3D484D;
+    --ui-verylight: rgba(255, 255, 255, 0.4);
 
     --red: #E67E80;
     --orange: #E69875;
@@ -26,6 +27,7 @@
     --textfaded: #c2b69f;
     --subtext0: #A7C080;
     --subtext1: #4F585E;
+
 
     --surface1: #3D484D;
     --surface2: #475258;
@@ -96,7 +98,7 @@
 }
 
 .power-menu-widget .label {
-	color: #9ec2ad;
+	color: var(--icon);
 	font-size: 16px;
         padding: 0
 }
@@ -117,13 +119,13 @@
 	margin-bottom: 0px;
 	font-size: 16px;
 	font-weight: 600;
-	color: #9ec2ad;
+	color: var(--icon);
 }
 .power-menu-popup .button .icon {
 	font-size: 55px;
 	padding-top: 25px;
 	padding-right: 10px;
-	color: #9ec2ad;
+	color: var(--icon);
 }
 .power-menu-popup .button.cancel .icon {
 	color: var(--red);
@@ -141,15 +143,15 @@
 	font-size: 16px;
 }
 .volume-widget .icon {
-	color: #9ec2ad;
+	color: var(--icon);
 	margin: 1px 2px 0 0;
 }
 .start-menu .icon {
 	font-size: 18px;
-	color: #9ec2ad
+	color: var(--icon)
 }
 .clock-widget .icon {
-	color: #9ec2ad;
+	color: var(--icon);
 	font-size: 14px;
 	margin-right: 6px;
 }
@@ -158,7 +160,7 @@
 
 }
 .apps-widget .label {
-    color: #9ec2ad;
+    color: var(--icon);
     font-size: 17px;
     padding-left: 4;
     padding-right: 4;
@@ -167,7 +169,7 @@
 /***-------------------------------      • Recycle Bin Widget •      --------------------------------***/
 
 .recycle-bin-widget .icon {
-    color: #9ec2ad;
+    color: var(--icon);
 } 
 .recycle-bin-widget .label {
     font-size: 11px;
@@ -178,7 +180,7 @@
 /***---------------------------------      • Weather Icons •      ----------------------------------***/
 
 .weather-widget .icon {
-    color: #9ec2ad;
+    color: var(--icon);
     padding-right: 3;
 }
 
@@ -289,11 +291,11 @@
 	padding: 8px 48px 8px 12px;
 	font-size: 14px;
 	font-weight: 700;
-    color: #9ec2ad;
+    color: var(--icon);
 }
 .home-menu .menu-item:hover {
 	background-color: rgba(255, 255, 255, 0.05);
-	color: #9ec2ad;
+	color: var(--icon);
 	margin: 4px 6px;
 	border-radius: 4px;
 }
@@ -303,7 +305,7 @@
 	margin: 0 8px;
 }
 .home-widget .label{
-    color: #9ec2ad;
+    color: var(--icon);
     font-size: 11px;
     background-color: var(--mantle);
 }
@@ -338,19 +340,19 @@
     border-radius: 4px;
 }
 .disk-group-label-bar::chunk{
-    background-color: #9ec2ad;
+    background-color: var(--icon);
     border-radius: 4px;
 }
 .disk-group-label {
     font-size: 10px;
-    color: #9ec2ad;
+    color: ;
 }
 .disk-group-label-size {
     font-size: 10px;
-    color: #9ec2ad;
+    color: var(--icon);
 }
 .disk-widget .icon {
-  color: #9ec2ad;
+  color: var(--icon);
 }
 
 
@@ -385,11 +387,11 @@
     color: var(--text);
 }
 .cpu-widget .icon {
-    color: #9ec2ad;
+    color: var(--icon);
     margin-right: 3px;
 }
 .memory-widget .icon {
-    color: #9ec2ad;
+    color: var(--icon);
     margin-right: 3px;
 }
 
@@ -423,7 +425,7 @@
 
 
 .traffic-widget .icon {
-    color: #9ec2ad;
+    color: var(--icon);
     padding-right: 6px;
     padding-left: 6px;
 }
@@ -448,7 +450,7 @@ color: var(--fadedgreen);
 }
 .notes-widget .icon {
     font-size: 16px;
-    color: #9ec2ad;
+    color: var(--icon);
 }
 /* Notes Widget Menu */
 .notes-menu {
@@ -466,7 +468,7 @@ color: var(--fadedgreen);
 .notes-menu .note-item .icon {
     font-size: 16px;
     padding: 0 4px;
-    color: #9ec2ad;
+    color: var(--icon);
 }
 .notes-menu .delete-button {
     color: #ff6b6b;
@@ -490,7 +492,7 @@ color: var(--fadedgreen);
 }
 .notes-menu .empty-list {
     font-family: 'JetBrainsMono NFP';
-    color: #9ec2ad;
+    color: var(--icon);
     font-size: 20px;
     font-weight: 600;
     padding: 10px 0 20px 0;     
@@ -518,7 +520,7 @@ color: var(--fadedgreen);
 }
 .notes-menu .note-input {
     background-color:rgba(17, 17, 27, 0.2);
-    border: px solid #9ec2ad;
+    border: px solid var(--icon);
     font-family: 'JetBrainsMono NFP';
     font-size: 12px;
     max-height: 200px;
@@ -527,7 +529,7 @@ color: var(--fadedgreen);
     border-radius: 6px;
 }
 .note-input:focus {
-    border: 1px solid #9ec2ad;
+    border: 1px solid var(--icon);
 }
 
 .media-menu {
@@ -540,7 +542,7 @@ color: var(--fadedgreen);
 .media-menu .artist,
 .media-menu .source {
     font-size: 17px;
-    color: #9ec2ad;
+    color: var(--icon);
     font-weight: 600;
     margin-left: 10px;
     font-family: 'JetBrainsMono NFP';
@@ -590,13 +592,13 @@ Example: "Windows Media" becomes "windows-media" */
     min-height: 40px;
     max-height: 40px;
     border-radius: 20px;
-	color: #7e8f85 ;
+	color: var(--fadedgreen) ;
 }
 .media-menu .btn.prev {
     margin-left: 10px;
 }
 .media-menu .btn:hover {
-    color: #9ec2ad;
+    color: var(--icon);
 }
 .media-menu .btn.play {
     font-size: 24px
@@ -610,7 +612,7 @@ Example: "Windows Media" becomes "windows-media" */
 .media-menu .playback-time {
     font-size: 12px;
     font-family: 'JetBrainsMono NFP';
-    color: #7e8f85; 
+    color: var(--icon); 
     margin-top: 20px;
     min-width: 100px;
 }
@@ -633,7 +635,7 @@ Example: "Windows Media" becomes "windows-media" */
     background: var(--mantle);
 }
 .media-menu .progress-slider::sub-page {
-    background: #7e8f85;
+    background: var(--fadedgreen);
     border-radius: 3px;
     height: 4px;
 }
