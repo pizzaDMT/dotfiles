@@ -71,9 +71,9 @@ widgets:
       bars_number: 12
       bar_spacing: 2
       bar_width: 5
-      noise_reduction: 0.20
+      noise_reduction: 0
       framerate: 25
-      sleep_timer: 0
+      sleep_timer: 30
       hide_empty: false
       container_padding:
         top: 0
@@ -88,7 +88,7 @@ widgets:
         - { title: "Home", path: "~" }
         - { title: "Downloads", path: "C:\\Users\\pizza\\Downloads"}
         - { title: "Documents", path: "C:\\Users\\pizza\\Documents"}
-        - { title: "Pictures", path: "C:\\Users\\pizza\\Pictures"}
+        - { title: "Pictures", path: "C:\\Users\\pizza\\OneDrive\\Pictures"}
         - { title: "Videos", path: "C:\\Users\\pizza\\Videos"}
         - { title: "Streamio", path: "C:\\Users\\pizza\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Stremio\\Stremio.lnk"}
         - { title: "Steam", path: "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Steam\\Steam.lnk"} 
@@ -116,8 +116,8 @@ widgets:
        on_middle: "do_nothing"
        on_right: "toggle_label"
       max_field_size:
-        label: 100
-        label_alt: 100
+        label: 45
+        label_alt: 125
       show_thumbnail: false
       controls_only: false
       controls_left: true
@@ -352,6 +352,6 @@ widgets:
         right: 0
       label: "{data}"
       app_list:
-        - { icon: "\udb82\ude1e",launch: "C:\\Users\\pizza\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe" }    
+        - { icon: "\uf489", launch: "wt" }    
         - { icon: "\uf1ff",launch: "C:\\Users\\pizza\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Discord Inc\\Discord.lnk" }
-        - { icon: "\uf489", launch: "wt" }      
+        - { icon: "\udb82\ude1e",launch: "C:\\Users\\pizza\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe" }      
