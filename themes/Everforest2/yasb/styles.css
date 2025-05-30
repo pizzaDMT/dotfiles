@@ -345,7 +345,7 @@
 }
 .disk-group-label {
     font-size: 10px;
-    color: ;
+    color: var(--icon);
 }
 .disk-group-label-size {
     font-size: 10px;
@@ -442,25 +442,26 @@ color: var(--fadedgreen);
 
 
 .notes-widget {
-    padding: 4;
+    padding: 2;
 }
 .notes-widget .label {
    font-size: 14px;
    color: var(--text);
 }
 .notes-widget .icon {
-    font-size: 16px;
+    font-size: 14px;
     color: var(--icon);
 }
 /* Notes Widget Menu */
 .notes-menu {
-    min-width: 400px;
-    max-width: 400px;
+    min-width: 500px;
+    max-width: 500px;
     background-color: var(--mantle);
 }
 .notes-menu .note-item {
     background-color:transparent;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    max-width: 490px;
 }
 .notes-menu .note-item:hover {
     background-color: rgba(255, 255, 255, 0.1);
